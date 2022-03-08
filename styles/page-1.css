@@ -1,0 +1,24 @@
+#bench {
+  /* scale: 100%; */
+  position: relative;
+  z-index: 1;
+  /* left: -30%; */
+  bottom: -10%;
+  width: 50%;
+  height: auto;
+  /* vertical-align: baseline; */
+  object-fit: cover;
+  object-position: bottom;
+}
+
+#thought-cloud {
+  position: relative;
+  z-index: 2;
+  left: 35%;
+  top: -80%;
+  width: 20%;
+  height: auto;
+  /* vertical-align: baseline; */
+  /* object-fit: cover;
+  object-position: bottom; */
+}

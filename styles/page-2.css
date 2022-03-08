@@ -1,0 +1,62 @@
+#wondering {
+  scale: 90%;
+  position: relative;
+  z-index: 1;
+  left: 2vw;
+  top: 50vh;
+  width: 20vw;
+  height: auto;
+  /* vertical-align: baseline; */
+  /* object-fit: cover;
+  object-position: bottom; */
+}
+
+#thought-cloud-2 {
+  position: relative;
+  z-index: 2;
+  left: 18vw;
+  top: 0vh;
+  width: 18vw;
+  height: auto;
+  /* vertical-align: baseline; */
+  /* object-fit: cover;
+    object-position: bottom; */
+}
+
+#tension {
+  scale: 100%;
+  position: relative;
+  z-index: 10;
+  left: 30vw;
+  top: -48vh;
+  width: 45vw;
+  height: auto;
+  /* vertical-align: baseline; */
+  /* object-fit: cover;
+    object-position: bottom; */
+}
+
+#mobile-container {
+  scale: 100%;
+  position: relative;
+  z-index: 3;
+  left: 53vw;
+  top: -135vh;
+  width: min-content;
+  height: min-content;
+  background: white;
+}
+
+#mobile {
+  scale: 100%;
+  z-index: 4;
+  width: auto;
+  height: 80vh;
+}
+
+/* #mobile-screen {
+  z-index: 3;
+  background: red;
+  width: 100vw;
+  height: ;
+} */
