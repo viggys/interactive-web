@@ -7,7 +7,7 @@ document.addEventListener(
   "keydown",
   (event) => {
     const keyName = event.key;
-    // console.log("Key pressed:", keyName);
+    console.log("Key pressed:", keyName);
     switch (keyName) {
       case "ArrowLeft":
         gotoPrev();
@@ -39,7 +39,7 @@ function gotoNext() {
 }
 
 function renderPage(page) {
-  fetch(`./views/cards/page-${page}.html`)
+  fetch(`/views/cards/page-${page}.html`)
     .then((response) => {
       return response.text();
     })

@@ -4,11 +4,15 @@
   "description": "Interactive Web",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --exec 'npx serve'"
   },
   "author": "vignesh.subramanian93@gmail.com",
   "license": "ISC",
   "dependencies": {
     "bootstrap-icons": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "serve": "^13.0.2"
   }
 }
