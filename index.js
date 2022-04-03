@@ -47,6 +47,15 @@ function renderPage(page) {
     })
     .then((data) => {
       document.querySelector("page").innerHTML = data;
+      let imgElemList = document.querySelectorAll("img");
+      imgElemList.forEach((imgElem) => {
+        if (imgElem.hasAttribute("src")) {
+          imgElem.setAttribute(
+            "src",
+            imgElem.getAttribute("src").replace("{{BASE_URI}}", BASE_URI)
+          );
+        }
+      });
     });
 }
 
