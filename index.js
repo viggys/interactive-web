@@ -1,5 +1,7 @@
 console.log("Welcome to interactive web");
 
+const BASE_URI = window.location.pathname;
+
 var page = 1;
 var maxPage = 2;
 
@@ -39,7 +41,7 @@ function gotoNext() {
 }
 
 function renderPage(page) {
-  fetch(`/views/cards/page-${page}.html`)
+  fetch(`${BASE_URI}views/cards/page-${page}.html`)
     .then((response) => {
       return response.text();
     })
