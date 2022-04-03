@@ -4,7 +4,7 @@
   "description": "Interactive Web",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec 'npx serve'"
+    "dev": "nodemon -e 'html,js,css' -x 'npx serve'"
   },
   "author": "vignesh.subramanian93@gmail.com",
   "license": "ISC",

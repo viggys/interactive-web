@@ -3,7 +3,7 @@ console.log("Welcome to interactive web");
 const BASE_URI = window.location.pathname;
 
 var page = 1;
-var maxPage = 2;
+var maxPage = 5;
 
 document.addEventListener(
   "keydown",

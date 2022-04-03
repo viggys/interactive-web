@@ -1,8 +1,8 @@
-#pg-2-thought-face {
-  scale: 90%;
+#pg-3-thought-face {
+  scale: 95%;
   position: relative;
   z-index: 1;
-  left: 2vw;
+  left: 1.5vw;
   top: 50vh;
   width: 20vw;
   height: auto;
@@ -11,24 +11,21 @@
   object-position: bottom; */
 }
 
-#pg-2-thought-cloud-2 {
+#pg-3-thought-cloud-container {
   position: relative;
   z-index: 2;
   left: 18vw;
-  top: 0vh;
-  width: 18vw;
+  top: -20vh;
+  width: 25vw;
   height: auto;
-  /* vertical-align: baseline; */
-  /* object-fit: cover;
-    object-position: bottom; */
 }
 
-#pg-2-tension {
-  scale: 100%;
+#pg-3-pointing {
+  scale: 40%;
   position: relative;
   z-index: 10;
-  left: 30vw;
-  top: -48vh;
+  left: 37.5vw;
+  top: -65vh;
   width: 45vw;
   height: auto;
   /* vertical-align: baseline; */
@@ -36,27 +33,20 @@
     object-position: bottom; */
 }
 
-#pg-2-mobile-container {
+#pg-3-mobile-container {
   scale: 100%;
   position: relative;
   z-index: 3;
   left: 53vw;
-  top: -135vh;
+  top: -163.7vh;
   width: min-content;
   height: min-content;
   background: white;
 }
 
-#pg-2-mobile {
+#pg-3-mobile {
   scale: 100%;
   z-index: 4;
   width: auto;
   height: 80vh;
 }
-
-/* #mobile-screen {
-  z-index: 3;
-  background: red;
-  width: 100vw;
-  height: ;
-} */

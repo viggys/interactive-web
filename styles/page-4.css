@@ -1,0 +1,45 @@
+#pg-4-thought-face {
+  scale: 100%;
+  position: relative;
+  z-index: 1;
+  left: 1.5vw;
+  top: 50vh;
+  width: 20vw;
+  height: auto;
+}
+
+#pg-4-thought-1 {
+  position: relative;
+  z-index: 2;
+  left: 2vw;
+  top: -35vh;
+  width: 50vw;
+  height: auto;
+}
+
+#pg-4-thought-cloud-container {
+  position: relative;
+  z-index: 3;
+  left: 18vw;
+  top: -20vh;
+  width: 22vw;
+  height: auto;
+}
+
+#pg-4-mobile-container {
+  scale: 100%;
+  position: relative;
+  z-index: 5;
+  left: 53vw;
+  top: -65vh;
+  width: min-content;
+  height: min-content;
+  background: white;
+}
+
+#pg-4-mobile {
+  scale: 100%;
+  z-index: 6;
+  width: auto;
+  height: 80vh;
+}
